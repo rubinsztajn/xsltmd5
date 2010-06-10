@@ -1,0 +1,27 @@
+Hi Ben, 
+
+Here's what we got:
+
+./xsl/*.xml
+Example xml file(s) to be transfromed to xhtml
+
+./xsl/*.xsl
+The suite of stylesheets used for the transformation.  The only sheet
+you need to worry about is print.xsl
+
+./xsl/print.xsl
+The master stylesheet.  The template "rdfa" is where my RDFa magic
+happens.  I've commented the section where I imagine the md5 function
+to be called.  
+
+./xsl/*.html
+Example result of transformation, assuming all the md5 shiz happens as hoped.
+
+FWIW, here's the other end of this:
+
+http://gslis.simmons.edu/archival
+
+The pvn:primaryProvenanceOf property links to the xhtml/rdfa finding
+aid, which is what we're generating with the transformations and the
+md5'd name generates the URI to link back from the xhtml/rdfa representation of
+the collection to the person on the Archival service.   

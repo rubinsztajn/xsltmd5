@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="print.xsl" type="text/xsl"?>
+
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "../../dtds/ead.dtd">
+
+<ead>
+<eadheader langencoding="iso639-2b" countryencoding="iso3166-1" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924" audience="internal" id="head" relatedencoding="MARC21">
+
+<eadid publicid="-//us::mu//TEXT us::mu::mums598.xml//EN" countrycode="us" mainagencycode="mu">mums598</eadid>
+
+<filedesc>
+<titlestmt>
+<titleproper encodinganalog="245$a">C. H. Wheeler Scrapbook</titleproper>
+<subtitle>Finding Aid</subtitle>
+<author encodinganalog="245$c">Finding aid prepared by Dex Haven.</author>
+</titlestmt>
+<publicationstmt>
+<publisher encodinganalog="260$b">Special Collections and University Archives, W.E.B. Dubois Library, University of Massachusetts Amherst</publisher>
+<address>
+<addressline>Amherst, Mass.</addressline>
+</address>
+<date encodinganalog="260$c" normal="2009">2009</date>
+<p>&#x00A9; University of Massachusetts Amherst. All rights reserved.</p>
+</publicationstmt>
+</filedesc>
+<profiledesc>
+<creation encodinganalog="500">Finding aid encoded in MSWord<date>2009-02-06</date>
+</creation>
+<langusage>Finding aid written in <language encodinganalog="546" langcode="eng" scriptcode="latn">English</language></langusage>
+</profiledesc>
+</eadheader>
+
+<frontmatter id="front">
+<titlepage>
+<publisher>Special Collections and University Archives, W.E.B. Du Bois Library, University of Massachusetts Amherst
+</publisher>
+<titleproper>C. H. Wheeler Scrapbook</titleproper>
+<subtitle>Finding Aid</subtitle>
+<num>MS 598 bd</num>
+<author>Compiled by Dexter Haven</author>
+<date>March 2009</date>
+<p>&#x00A9; 2008 University of Massachusetts Amherst. All rights reserved.</p>
+</titlepage>
+</frontmatter>
+
+
+<archdesc relatedencoding="MARC21" level="collection">
+<did id="main">
+<head>Collection Overview</head>
+<origination label="Creator:">
+<persname encodinganalog="100" source="lcnaf">Wheeler, C. H.</persname>
+</origination>
+<unittitle label="Title:" encodinganalog="245$a">C. H. Wheeler Scrapbook</unittitle>
+<unitdate encodinganalog="245$f" type="inclusive" normal="1935/1937">1935-1937</unitdate>
+<unitid label="Collection Number:" encodinganalog="099" repositorycode="mu" countrycode="us">MS 598 bd</unitid>
+<physdesc label="Quantity:">
+<extent encodinganalog="300$a">1 vol.</extent>
+<extent encodinganalog="300$a">(0.5 linear ft.)</extent>
+</physdesc>
+<repository label="Location:">
+<corpname>Special Collections and University Archives, W.E.B. Du Bois Library, University of Massachusetts Amherst</corpname>
+</repository>
+<abstract encodinganalog="520$a">A resident of Haydenville, Mass., during the 1930s, C. H. Wheeler was evidently captivated with the profound political changes sweeping the nation during the years of the Great Depression.<lb />Containing hundreds of political cartoons clipped from local newspapers and national media, C. H. Wheeler's scrapbook documents media reactions to the Great Depression and New Deal, the presidential election of 1936, Alf Landon and Franklin D. Roosevelt, and national and international political currents.</abstract>
+<langmaterial><language langcode="eng">English</language></langmaterial>
+</did>
+
+
+
+<bioghist id="bioghist">
+<head>Historical Note</head>
+<p>A resident of Haydenville, Mass., during the 1930s, C. H. Wheeler was evidently captivated with the profound political changes sweeping the nation during the years of the Great Depression.</p>
+</bioghist>
+
+<scopecontent id="scope">
+<head>Scope and Contents of the Collection</head>
+<p>Containing hundreds of political cartoons clipped from local newspapers and national media, this scrapbook documents media reactions to the Great Depression and New Deal, the presidential election of 1936, Alf Landon and Franklin D. Roosevelt, Republican efforts to undermine relief legislation, and national and international political currents.  The compiler pasted in a small number of news articles, magazine covers, and the series of famously errant straw polls run by the <title render="italic">Literary Digest</title> that predicted a Landon landslide over Roosevelt in 1936.</p>
+
+<p>Although the compiler's identity is uncertain, two magazine covers tipped into the scrapbook bear an address label for C. H. Wheeler of Haydenville, Mass.  The scrapbook pages are highly acidic, brittle, and should be handled with care.</p>
+</scopecontent>
+
+
+<accessrestrict id="admin-access">
+<p>The collection is open for research.</p>
+</accessrestrict>
+
+<prefercite id="admin-cite">
+<head>Preferred Citation</head>
+<p><emph render="italic">Cite as</emph>: C. H. Wheeler Scrapbook (MS 598 bd). Special Collections and University Archives, W.E.B. Du Bois Library, University of Massachusetts Amherst.</p>
+</prefercite>
+
+<acqinfo id="admin-acqinfo">
+<p>Gift of Forbes Library, March 2009.</p>
+</acqinfo>
+
+<processinfo><p>Processed by Dex Haven, March 2009.</p></processinfo>
+
+<controlaccess id="subj">
+<head>Search Terms</head>
+<persname encodinganalog="700">Wheeler, C. H.</persname>
+<persname encodinganalog="600">Landon, Alfred M. (Alfred Mossman), 1887-1987.</persname>
+<persname encodinganalog="600">Roosevelt, Franklin D. (Franklin Delano), 1882-1945.</persname>
+
+<subject encodinganalog="650" source="lcsh">Depressions--1929.</subject>
+<subject encodinganalog="650" source="lcsh">New Deal, 1933-1939.</subject>
+
+<geogname encodinganalog="651" source="lcsh">Massachusetts--Politics and government--1933-1945.</geogname>
+<geogname encodinganalog="651" source="lcsh">United States--Politics and government--1933-1945.</geogname>
+
+<genreform encodinganalog="655" source="aat">Political cartoons.</genreform>
+<genreform encodinganalog="655" source="aat">Scrapbooks.</genreform>
+</controlaccess>
+
+
+
+</archdesc>
+</ead>
