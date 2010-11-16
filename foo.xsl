@@ -22,7 +22,7 @@
         a += (c ^ (b | (~d))) + x + ac;
         return ((a << s) | (a >>> (32 - s))) + b;
 
-	becomes...
+	becomes:
 
 	notd = ~d; // TODO: write bitwise NOT
 	tmp1 = b | notd; // TODO: write bitwise OR
